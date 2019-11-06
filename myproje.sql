@@ -66,8 +66,8 @@ LOCK TABLES `user` WRITE;
 
 INSERT INTO `user` (`id`, `user_name`, `email`, `pasw`)
 VALUES
-	(1,'Amid mirzeyev','test@gmail.com','fe01ce2a7fbac8fafaed7c982a04e229'),
-	(2,'Sami Huseyinov','samir@gmail.com','fe01ce2a7fbac8fafaed7c982a04e229');
+	(1,'Administrator','admin','5f4dcc3b5aa765d61d8327deb882cf99'),
+	
 
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
